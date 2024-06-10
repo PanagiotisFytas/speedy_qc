@@ -1294,7 +1294,7 @@ class MainApp(QMainWindow):
             Qt.Key.Key_9: 8,
         }
 
-        print(self.radiobuttons[self.highlighted_radiogroup])
+        # print(self.radiobuttons[self.highlighted_radiogroup])
 
         if Qt.Key.Key_1 <= key <= Qt.Key.Key_9:
             for k, v in button_dict.items():
